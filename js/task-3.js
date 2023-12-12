@@ -1,6 +1,6 @@
 "use strict";
 function checkForSpam(message) {
-    const lowerCaseMessage = message.toLowerCase(); // Перетворюємо рядок у нижній регістр для порівняння
+    const lowerCaseMessage = message.toLowerCase();
 
     if (lowerCaseMessage.includes('spam') || lowerCaseMessage.includes('sale')) {
         return true; 
